@@ -1,0 +1,27 @@
+{
+    "name": "PrimerPWA",
+    "short_name": "PWA",
+    "description": "Este es mi primer PWA",
+    "background-color": "#FFF",
+    "theme_color": "#BBA9BB",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./index.html?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es_MX",
+
+    "icons": [
+        {
+            "src": "./img/favicons/misa-1024.png",
+            "size": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/favicons/misa-16.png",
+            "size": "16x16",
+            "type": "image/png"
+        }
+    ],
+    "id": "miPWA"
+
+}

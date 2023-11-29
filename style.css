@@ -1,0 +1,65 @@
+/* Estilos para los bordes redondeados, sombras y centrado vertical */
+.rounded-bottom {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.rounded-top {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+/*fondo*/
+.rounded-container {
+    
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+.rounded-container-p {
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+/* Centra verticalmente el contenido */
+.center-vertically {
+    min-height: 100vh; /* Mínimo 100% del alto de la ventana */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Centra horizontalmente el texto */
+.text-center {
+    text-align: center;
+}
+.main-content {
+    margin-bottom: 100px; /* Espacio para el footer */
+}
+
+.rounded-box {
+    width: 200px; /* Ancho del div */
+    height: 200px; /* Altura del div */
+    border-radius: 30px; /* Bordes redondeados */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombras */
+    background-color: #f0f0f0; /* Color de fondo (puedes cambiarlo) */
+    margin: 20px auto; /* Centrar horizontalmente y agregar margen superior e inferior */
+}
+
+.roundborder{
+    border-radius: 40px;
+}
+
+.text-color{
+    color: white;
+    font-style: oblique;
+}
+/*============================================================*/
+
+
+
+
